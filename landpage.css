@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Baloo Tamma 2', cursive;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.entirecontainer{
+    width: 100%;
+    height: 900px;
+    background-color: #319cfb;
+    padding: 0 100px;
+    
+}
+
+.logo h2{
+    margin-top: 0;
+    color: white;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    padding-top: 20px;
+    
+}
+
+.nav-links{
+    margin-left: auto;
+    
+    
+}
+
+.nav-links ul li {
+    display: inline;
+    margin-left: 90px;
+    
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    
+}
+
+.nav-links ul{
+    margin-top: 0;
+}
+
+.entirecontainer header .nav-links ul li button{
+    width: 100px;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 13px;
+    color: black;
+}
+.entirecontainer header .nav-links ul li button:hover{
+    background-color: yellow;
+}
+.logo span{
+    color: #f8cd3e;
+}
+
+
+
+.image{
+    background-image: url(Phone\ UI.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 45%;
+    height: 700px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    
+}
+.bodycontainer{
+    display: flex;
+}
+.left{
+    width: 55%;
+}
+h1{
+    color: white;
+    font-size: 90px;
+    padding-top: 0;
+    line-height: 140px;
+}
+.p1{
+    color: white;
+    font-weight: 90;
+    font-size: 20px;
+}
+ button{
+    border: none;
+    background-color: #f8cd3e;
+    height: 35px;
+    width: 115px;
+    border-radius: 7px;
+    color: white;
+    font-weight: 600;
+}
+button:hover{
+    background-color: black;
+}
+p{
+    color: white;
+    font-size: 14px;
+    padding-top: 20px;
+}
